@@ -3,9 +3,124 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
+  <link rel="stylesheet" href="style.css">
+  <title>タイトル</title>
 </head>
 <body>
+
+  <h1>h1タグによる記述です</h1>
+  <p>
+    長文テキストーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーー。<br>
+    長文テキストーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーー。
+  </p>
+  <p>普通のテキスト<span class="red-text">ここだけ赤色</span>普通のテキスト</p>
+  <a href="google.com" target="_blank" rel="noopener noreferrer">別タブで開くリンクです</a>
+
+  <h2>h2タグによる記述です</h2>
+  <img src="https://res.cloudinary.com/he3zvdcui/image/upload/v1627893281/Curriculums/html_5/sea_qghbze_owfslc.jpg" alt="綺麗な空と海">
+  <img src="誤ったパス" alt="綺麗な空と海">
+
+  <h3>h3タグによる記述です</h3>
+  <table border>
+    <tr>
+      <th>果物名</th>
+      <th>値段（円）</th>
+      <th>備考</th>
+    </tr>
+
+    <tr align="center">
+      <td>りんご</td>
+      <td>300</td>
+      <td>青森県産</td>
+    </tr>
+
+    <tr align="center">
+      <td>バナナ</td>
+      <td>110</td>
+      <td>美味しい</td>
+    </tr>
+
+    <tr align="center">
+      <td>キウイ</td>
+      <td>200</td>
+      <td>ビタミンたっぷり</td>
+    </tr>
+  </table>
+
+  <h4>h4タグによる記述です</h4>
+  <form action="sample_url">
+    <div>
+      <label for="name">名前：</label>
+      <input type="text">
+    </div>
   
+    <div>
+      <label for="email">メールアドレス：</label>
+      <input type="email">
+    </div>
+  
+    <div>
+      <label for="password">設定するパスワード：</label>
+      <input type="password">
+    </div>
+  
+    <div>
+      <p>性別：</p>
+      <label>
+        男<input type="radio" name="sex">
+      </label>
+  
+      <label>
+        女<input type="radio" name="sex">
+      </label>
+    </div>
+  
+    <div>
+      <p>話せる言葉(複数選択可)：</p>
+      <label>
+      <input type="checkbox" name="language" value="japanese">日本語
+    </label>
+  
+    <label>
+      <input type="checkbox" name="language" value="english">英語
+    </label>
+  
+    <label>
+      <input type="checkbox" name="language" value="chinese">中国語
+    </label>
+  
+    <label>
+      <input type="checkbox" name="language" value="french">フランス語
+    </label>
+  
+    <label>
+      <input type="checkbox" name="language" value="italian">イタリア語
+      </label>
+    </div>
+  
+    <div>
+      <label>入力項目をクリア</label>
+      <input type="reset">
+    </div>
+  
+    <div>
+      <label>入力内容を送信する</label>
+      <input type="submit">
+    </div>
+  </form>
+  
+  <h5>h5タグによる記述です</h5>
+  <form aciton="sample_url">
+    <input type="text">
+    <button type="submit">送信ボタン</button>
+    <button type="reset">リセットボタン</button>
+  </form>
+
+  <h6>h6タグによる記述です</h6>
+  <ol>
+    <li>項目その１</li>
+    <li>項目その２</li>
+    <li>項目その３</li>
+  </ol>
 </body>
 </html>

@@ -1,0 +1,16 @@
+.red-text {
+  color: red;
+}
+
+table th {
+  padding: 15px 25px;
+}
+
+table td {
+  padding: 10px 20px;
+}
+
+ul {
+  list-style: none;
+  list-style-type: circle;
+}
